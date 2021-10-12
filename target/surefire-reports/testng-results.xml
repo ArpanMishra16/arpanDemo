@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-12T01:53:41 IST" name="Suite" finished-at="2021-10-12T01:53:52 IST" duration-ms="11555">
+    <groups>
+    </groups>
+    <test started-at="2021-10-12T01:53:41 IST" name="validation" finished-at="2021-10-12T01:53:47 IST" duration-ms="6500">
+      <class name="E2E.framework.TextValidation">
+        <test-method signature="textValid()[pri:0, instance:E2E.framework.TextValidation@7daa0fbd]" started-at="2021-10-12T01:53:41 IST" name="textValid" finished-at="2021-10-12T01:53:47 IST" duration-ms="6464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textValid -->
+      </class> <!-- E2E.framework.TextValidation -->
+    </test> <!-- validation -->
+    <test started-at="2021-10-12T01:53:41 IST" name="Test" finished-at="2021-10-12T01:53:52 IST" duration-ms="11555">
+      <class name="E2E.framework.Login">
+        <test-method is-config="true" signature="driverinit()[pri:0, instance:E2E.framework.Login@9573584]" started-at="2021-10-12T01:53:41 IST" name="driverinit" finished-at="2021-10-12T01:53:47 IST" duration-ms="5998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverinit -->
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:E2E.framework.Login@9573584]" started-at="2021-10-12T01:53:47 IST" name="test1" data-provider="getData" finished-at="2021-10-12T01:53:48 IST" duration-ms="1016" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="close()[pri:0, instance:E2E.framework.Login@9573584]" started-at="2021-10-12T01:53:48 IST" name="close" finished-at="2021-10-12T01:53:48 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="driverinit()[pri:0, instance:E2E.framework.Login@9573584]" started-at="2021-10-12T01:53:48 IST" name="driverinit" finished-at="2021-10-12T01:53:51 IST" duration-ms="3315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverinit -->
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:E2E.framework.Login@9573584]" started-at="2021-10-12T01:53:51 IST" name="test1" data-provider="getData" finished-at="2021-10-12T01:53:52 IST" duration-ms="849" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[text@123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[321as]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="close()[pri:0, instance:E2E.framework.Login@9573584]" started-at="2021-10-12T01:53:52 IST" name="close" finished-at="2021-10-12T01:53:52 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- E2E.framework.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
