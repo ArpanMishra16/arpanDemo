@@ -33,6 +33,7 @@ public class Login extends Base {
 		driver.get(pro.getProperty("url"));
 		log.info("URL successfully open");
 		driver.manage().window().maximize();
+                System.out.println("Git test");
 	
 	}
 	
